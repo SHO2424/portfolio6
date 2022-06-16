@@ -1,0 +1,77 @@
+/* common */
+li {
+    list-style :none;
+}
+img {
+    width: 100%;
+}
+/* header */
+header {
+    background-image:url("img/bgsee.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.header-item {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 60px;
+    padding-bottom:60px;
+}
+
+header .navbar-brand h1 {
+    font-size: 40px;
+}
+header .collapse li a {
+    font-size:20px ;
+}
+/* main */
+.works {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.works-title h1 {
+    font-family:  'Lato', sans-serif;
+    color: gray;
+    font-weight: 200;
+}
+/* footer */
+footer {
+    background-color: lightgray;
+    margin-top: 60px;
+}
+.footer-item {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+footer li {
+    font-size: 25px;
+}
+footer a {
+    color: black;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+footer span {
+    color: gray;
+}
+@media (max-width:960px) {
+    header .navbar-brand h1 {
+        font-size: 20px;
+    }
+    .works-ex p {
+        font-size: 10px;
+        text-align: center;
+    }
+    .works-title h1 {
+        text-align: center;
+    }
+    .works-item span {
+        font-size: 10px;
+    }
+    .footer-item a {
+        font-size: 10px;
+    }
+}
